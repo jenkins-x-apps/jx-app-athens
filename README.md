@@ -14,6 +14,7 @@ Until we add pipeline extensibility you need to manually enable the proxy. If yo
 ...
 spec:
   steps:
+  - env:
     ...
     - name: GOPROXY
       value: http://jx-app-athens-athens-proxy
