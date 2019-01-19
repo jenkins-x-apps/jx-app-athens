@@ -1,0 +1,4 @@
+dependencies:
+- name: "athens"
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.2
