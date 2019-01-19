@@ -1,3 +1,4 @@
 athens-proxy:
   image:
     tag: adb4dbb
+    repository: gomods/athens
