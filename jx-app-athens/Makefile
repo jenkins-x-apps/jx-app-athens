@@ -32,12 +32,10 @@ clean:
 release: clean build
 ifeq ($(OS),Darwin)
 	sed -i "" -e "s/version:.*/version: $(VERSION)/" Chart.yaml
-	sed -i "" -e "s/tag: .*/tag: $(VERSION)/" values.yaml
 else ifeq ($(OS),Linux)
 	sed -i -e "s/version:.*/version: $(VERSION)/" Chart.yaml
-	sed -i -e "s/tag: .*/tag: $(VERSION)/" values.yaml
 else
-	echo "platfrom $(OS) not supported to tag with"
+	echo "platform $(OS) not supported to tag with"
 	exit -1
 endif
 	helm package .
