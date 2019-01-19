@@ -1,4 +1,4 @@
 dependencies:
-- name: "athens"
+- name: "athens-proxy"
   repository: http://chartmuseum.jenkins-x.io
   version: 0.0.2
