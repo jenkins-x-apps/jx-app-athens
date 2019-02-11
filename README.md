@@ -6,6 +6,10 @@ The Athens App can be installed by running:
 
 `jx add app jx-app-athens`
 
+### Enable the proxy
+
+NOTE: This is a workaround
+
 Until we add pipeline extensibility you need to manually enable the proxy. If you are using Serverless Jenkins run:
 
 `kubectl edit buildtemplate jenkins-go` and add this entry to list of env vars like
