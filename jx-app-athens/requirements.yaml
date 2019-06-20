@@ -1,4 +1,4 @@
 dependencies:
 - name: "athens-proxy"
   repository: https://athens.blob.core.windows.net/charts
-  version: 0.2.1
+  version: 0.2.11
